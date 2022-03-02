@@ -1,0 +1,25 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body {
+background-image:url("ankara2.jpeg") ;
+background-repeat: no-repeat;
+background-size: cover;
+}
+/* img {
+  margin-left: 73%;
+}
+.whatis{
+  color: white;
+  font-size:x-large ;
+}
+.gender{
+  display: flex;
+}
+.female{
+  margin-left: 20%;
+}
+.male{
+  margin-left: 10%;
+} */
