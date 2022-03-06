@@ -1,5 +1,5 @@
-// var maleName=['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame']
-// var femaleName=['Akosua','Adwoa', 'Abenaa','Akua','Yaa','Afua','Ama']
+var maleName=['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame']
+var femaleName=['Akosua','Adwoa', 'Abenaa','Akua','Yaa','Afua','Ama']
 // function findName(){
 //   var year= document.getElementById("year").value
 //   var yy=parseInt(year.substr(2,4))
