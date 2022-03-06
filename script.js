@@ -10,21 +10,21 @@ function findName(){
   var cc=parseInt(year.substr(0,2))
 var birthDay=Math.abs(parseInt(((cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10))+ dd)%7);
 var gender=document.getElementById("gender").value
+
+if(dd <=0 || dd >31 || dd ==""){
+  alert("In/valid date")
+} else if(mm <=0 || mm>12 || mm ==""){
+alert("Invalid Month")}
+else if(year <=0 || year ==""){
+alert("Invalid Year")}
+else if (gender ==="male"){
+  alert("Your Akan Name is:" + maleName[birthDay])
+}else if (gender ==="female"){
+  alert("Your Akan Name is:" +femaleName[birthDay])
 }
-// if(dd <=0 || dd >31 || dd ==""){
-//   alert("Invalid date")
-// } else if(mm <=0 || mm>12 || mm ==""){
-// alert("Invalid Month")}
-// else if(year <=0 || year ==""){
-// alert("Invalid Year")}
-// else if (gender ==="male"){
-//   alert("Your Akan Name is:" + maleName[birthDay])
-// }else if (gender ==="female"){
-//   alert("Your Akan Name is:" +femaleName[birthDay])
-// }
 
 
-// }
+}
 // alert("hey you")
 
 
