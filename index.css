@@ -16,12 +16,19 @@ img {
 }
 .people{
   display: flex;
+  color: white;
+  font-size: x-large;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
 }
 .female{
-  margin-left: 20%;
+  margin-left: 70%;
 }
 .male{
-  margin-left: 10%;
+ padding-left: 50%;
+ justify-content: right;
 }
 /* label{
  display: inline;
@@ -30,32 +37,22 @@ img {
   display: flex;
 }
 .form {
-  margin-top: 4%;
-  margin-left: 25%;
+  margin-top: 2%;
   background-color:rgb(219, 53, 11) ;
   height: 32vh;
   width: 350px;
   overflow: auto;
+  margin-right: 20%;
 }
 label{
   color: white;
  font-size: larger;
-}
-.answer {
-  background-color: rgb(241, 187, 8);
-  margin-left: 10%;
-  height:15vh ;
-  width: 350px;
-  margin-top: 4%;
-  text-align: center;
-  font-size: x-large;
- 
 
 }
-button {
+/* button {
   background-color: rgb(223, 134, 32);
   font-size: large;
   margin-left: 35%;
   color: white;
-}
+} */
 
