@@ -41,7 +41,7 @@ label{
   color: white;
  font-size: larger;
 }
-/* .answer {
+.answer {
   background-color: rgb(241, 187, 8);
   margin-left: 10%;
   height:15vh ;
@@ -57,5 +57,5 @@ button {
   font-size: large;
   margin-left: 35%;
   color: white;
-} */
+}
 
