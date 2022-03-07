@@ -29,19 +29,19 @@ img {
 .all {
   display: flex;
 }
-/* .form {
+.form {
   margin-top: 4%;
   margin-left: 25%;
   background-color:rgb(219, 53, 11) ;
   height: 32vh;
   width: 350px;
-  overflow: auto; */
+  overflow: auto;
 }
 label{
   color: white;
  font-size: larger;
 }
-.answer {
+/* .answer {
   background-color: rgb(241, 187, 8);
   margin-left: 10%;
   height:15vh ;
@@ -57,5 +57,5 @@ button {
   font-size: large;
   margin-left: 35%;
   color: white;
-}
+} */
 
